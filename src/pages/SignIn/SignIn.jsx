@@ -44,7 +44,10 @@ const SingnIn = () => {
                 </div>
 
                 <div className="mt-5">
-                  <Link className="cursor-pointer font-open">
+                  <Link
+                    to="/forgotpassword"
+                    className="cursor-pointer font-open"
+                  >
                     Forgot Your Password?
                   </Link>
                 </div>
