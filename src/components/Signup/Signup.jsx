@@ -5,7 +5,7 @@ const Signup = () => {
     <>
       <section>
         <div className="bg-[#eee] py-5 lg:py-10">
-          <h2 className="text-lg lg:text-4xl text-center font-open font-semibold">
+          <h2 className="text-lg lg:text-2xl text-center font-open font-bold">
             Create New Customer Account
           </h2>
         </div>
@@ -16,7 +16,7 @@ const Signup = () => {
               <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-10">
                 {/* Personal Information  */}
                 <div>
-                  <h3 className="mb-4 lg:mb-7 text-base lg:text-2xl font-open font-semibold">
+                  <h3 className="mb-4 lg:mb-7 text-base lg:text-xl font-open font-semibold">
                     Personal Information
                   </h3>
 
@@ -60,7 +60,7 @@ const Signup = () => {
 
                 {/* Sign-in Information  */}
                 <div>
-                  <h3 className="mb-4 lg:mb-7 w-full lg:w-md text-base lg:text-2xl font-open font-semibold">
+                  <h3 className="mb-4 lg:mb-7 w-full lg:w-md text-base lg:text-xl font-open font-semibold">
                     Sign-in Information
                   </h3>
                   <div className="mt-2 w-full lg:w-md flex flex-col gap-1.5">
